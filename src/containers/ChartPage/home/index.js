@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import Typography from "@material-ui/core/Typography";
 import { useStyles } from "../data";
-import dataT from "./data";
 import LineGraph from "../../../components/LineGraph";
 import { withRouter } from "react-router-dom";
 import axios from "axios";
